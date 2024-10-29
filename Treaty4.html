@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar Example</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+        }
+        /* Basic reset to remove default margins and padding */
+        body, ul {
+            margin: 0;
+            padding: 0;
+            
+        }
+        .id  {
+            font-size: 90px;
+            text-align: left;
+        }
+
+        /* Styling the navigation bar container */
+        nav {
+            background-color: #333; /* Dark background color for the nav */
+            overflow: hidden;       /* Ensure content doesn't overflow */
+        }
+
+        /* Remove bullet points and list styling from the navigation links */
+        nav ul {
+            list-style-type: none;  /* No bullet points */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling for each nav item */
+        nav ul li {
+            display: inline;         /* Aligns nav items horizontally */
+        }
+
+        /* Styling for each nav link */
+        nav ul li a {
+            display: inline-block;   /* Makes the link behave like a button */
+            color: white;            /* Text color */
+            text-align: center;      /* Center the text */
+            padding: 14px 20px;      /* Padding inside each link */
+            text-decoration: none;   /* Remove underline from links */
+        }
+
+        /* Change link color on hover */
+        nav ul li a:hover {
+            background-color: #3300ff; /* Gray background on hover */
+            color: white;              /* White text */
+        }
+        .bullet-points {
+            margin: 20px 0;         /* Margin around the list */
+            padding-left: 20px; 
+            color: black;  
+            font-size: 20px;  
+            text-align: left;/* Indent for the list items */
+        }
+        .treaty4{
+            background-color: rgb(94, 96, 98);
+            text-align: center;
+            font-size: 90px;
+        }
+        .centerthatthang{
+            text-align: center;
+        }
+        .circle-img {
+            width: 200px;           /* Set a width for the image */
+            height: 200px;          /* Set the same height to maintain the circular shape */
+            border-radius: 50%;     /* Makes the image circular */
+            border: 5px solid #333; /* Adds a solid border around the image */
+            object-fit: cover;      /* Ensures the image covers the container without distortion */
+        }
+        html{
+    scroll-behavior: smooth;
+}
+    </style>
+</head>
+<body>
+<!-- Navigation bar -->
+    <nav>
+        <h1 class="treaty4"><u>Treaty 4</u></h1>
+        <ul id="centerthatthang">
+            <li><a href="#what-is-treaty-4">What is Treaty 4</a></li>
+            <li><a href="#where-signed">Where was Treaty 4 signed</a></li>
+            <li><a href="#rocky-start">Rocky Start</a></li>
+            <li><a href="#importance-today">Why is it still important today</a></li>
+        </ul>
+    </nav>
+<!-- Content below the nav -->
+    <div>
+        <h1 id="what-is-treaty-4">What is Treaty 4</h1>
+        <p>
+            <ul class="bullet-points"> <!-- Added unordered list for bullet points -->
+                <li>Treaty 4, also known as the Qu'Appelle Treaty, is one of the numbered treaties negotiated between the Canadian government and Indigenous nations in the late 19th century.</li>
+                <li>Signed on September 15, 1874, at Fort Qu'Appelle in what is now southern Saskatchewan.</li>
+                <li>The treaty covers a vast area that includes parts of present-day southern Saskatchewan, southwestern Manitoba, and a small portion of southeastern Alberta.</li>
+            </ul>
+        </p>
+    <h1 id="where-signed">Where was Treaty 4 signed</h1>
+        <p>
+            <ul class="bullet-points"> <!-- Added unordered list for bullet points -->
+                <li>Fort Qu'Appelle</li>
+                <li>On September 15, 1875</li>
+                <li>Treaty 4 was signed in a small portion of southern Alberta</li>
+            </ul>
+        </p>
+    <h1 id="rocky-start">Rocky Start</h1>
+        <p>
+            <ul class="bullet-points"> <!-- Added unordered list for bullet points -->
+                <li>The negotiations were between the First Nation people and the Canadians</li>
+                <li>The beginning of the negotiations was not smooth sailing</li>
+                <li>The first problem was that most members of the First Nation were away because of buffalo hunting</li>
+                <li>Negotiation date was moved to September 11</li>
+                <li>The next problem was the negotiation location</li>
+            </ul>
+        </p>
+    
+        <h1 id="importance-today">Why is it still important today</h1>
+        <p>
+            <ul class="bullet-points"> <!-- Added unordered list for bullet points -->
+                <li>Because like all the other treaties</li>
+                <li>It was eventually broken</li>
+                <li>Urban reserves is an important part of the treaty that is still in effect today</li>
+                <li><img src="Images/Fort Quappele.png"  alt="Fort Qu'Appelle (now Saskatchewan), the meeting location of the Treaty 4 negotiations" class="circle-img" ></li>
+                <li>Fort Qu'Appelle (now Saskatchewan), the meeting location of the Treaty 4 negotiations</li>
+            </ul>
+        </p>
+    </div>
+
+</body>
+</html>

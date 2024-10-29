@@ -1,0 +1,13 @@
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 24pt;
+    color: blue;
+}
+html{
+    scroll-behavior: smooth;
+}
